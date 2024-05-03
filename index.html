@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== REMIXICONS ===============-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Cafeteria • Pompom</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <div class="header__border"></div>
+
+      <nav class="nav container">
+        <a href="" class="nav__logo">
+          <img src="assets/img/logo.png" alt="logo" />
+          Pompom
+        </a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="ri-home-5-fill"></i>
+                <span>Início</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="ri-award-fill"></i>
+                <span>Sobre</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#steps" class="nav__link">
+                <i class="ri-compass-3-fill"></i>
+                <span>Etapas</span>
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#testimonial" class="nav__link">
+                <i class="ri-message-3-fill"></i>
+                <span>Clientes</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h3 class="home__subtitle">QUALIDADE EXCEPCIONAL</h3>
+
+            <h1 class="home__title">
+              É hora de um <br />
+              bom café
+
+              <img src="assets/img/home-coffee-title.png" alt="home image" />
+            </h1>
+
+            <p class="home__description">
+              Cada grão de café selecionado reflete nosso compromisso com os
+              produtores de café do Brasil, que trazem o melhor café selecionado
+              para a sua mesa.
+            </p>
+
+            <a href="#about" class="button">
+              Vamos Lá <i class="ri-home-heart-fill"></i>
+            </a>
+          </div>
+
+          <img
+            src="assets/img/home-coffee.png"
+            alt="home image"
+            class="home__img"
+          />
+        </div>
+      </section>
+
+      <!--==================== PRODUCTS ====================-->
+      <section class="products">
+        <div class="products__bg section">
+          <div class="products__container container grid">
+            <div class="products__data">
+              <a href="#about" class="products__button">
+                Rolar para Baixo <i class="ri-arrow-down-s-line"></i>
+              </a>
+
+              <p class="products__description">
+                Nós nos esforçamos para formar parcerias profundas com
+                agricultores de todo o mundo para criar perspectivas juntos e
+                construir relacionamentos de trabalho saudáveis baseados em
+                confiança e respeito.
+              </p>
+            </div>
+
+            <div class="products__content">
+              <!-- 1 -->
+              <article class="products__card">
+                <img
+                  src="assets/img/product-coffee-1.png"
+                  alt="products image"
+                  class="products__img"
+                />
+                <h3 class="products__name">Café Clássico</h3>
+                <span class="products__price">R$19,90</span>
+              </article>
+
+              <!-- 2 -->
+              <article class="products__card">
+                <img
+                  src="assets/img/product-coffee-2.png"
+                  alt="products image"
+                  class="products__img"
+                />
+                <h3 class="products__name">Café Bourbon</h3>
+                <span class="products__price">R$24,90</span>
+              </article>
+
+              <!-- 3 -->
+              <article class="products__card">
+                <img
+                  src="assets/img/product-coffee-3.png"
+                  alt="products image"
+                  class="products__img"
+                />
+                <h3 class="products__name">Café C. Avelã</h3>
+                <span class="products__price">R$32,90</span>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about" id="about">
+        <div class="about__bg section">
+          <div class="about__container container grid">
+            <div class="about__data">
+              <h2 class="section__title">Nossa História</h2>
+
+              <p class="about__description">
+                Nós produzimos e cultivamos o melhor café do Brasil,
+                acompanhando famílias desde 1930, com trabalhadores
+                profissionais que colhem, coletam e selecionam o café com
+                trabalho de qualidade, proporcionando assim um café requintado
+                para ser apreciado em família.
+              </p>
+            </div>
+
+            <img
+              src="assets/img/about-coffee.jpg"
+              alt="about image"
+              class="about__img"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== STEPS ====================-->
+      <section class="steps" id="steps">
+        <div class="steps__bg section">
+          <h2 class="section__title">Etapas de fabricação</h2>
+
+          <div class="steps__container container grid">
+            <img
+              src="assets/img/coffee-beans-bg.png"
+              alt="steps background image"
+              class="steps__bg-img"
+            />
+
+            <div class="steps__content">
+              <img
+                src="assets/img/steps-curve-line.svg"
+                alt="steps border image"
+                class="steps__border"
+              />
+
+              <!-- 1 -->
+              <div class="steps__card">
+                <div class="steps__circle">
+                  <div class="steps__subcircle">01</div>
+
+                  <img
+                    src="assets/img/steps-green-coffee.png"
+                    alt="steps image"
+                    class="steps__img"
+                  />
+                </div>
+
+                <p class="steps__description">
+                  A colheita ocorre anualmente quando os grãos de café atingem a
+                  maturidade e são coletados para processamento.
+                </p>
+              </div>
+
+              <!-- 2 -->
+              <div class="steps__card steps__card-move">
+                <div class="steps__circle">
+                  <div class="steps__subcircle">02</div>
+
+                  <img
+                    src="assets/img/steps-coffee-beans.png"
+                    alt="steps image"
+                    class="steps__img"
+                  />
+                </div>
+
+                <p class="steps__description">
+                  Os grãos são secos usando uma técnica úmida ou seca,
+                  dependendo do sabor que queremos obter.
+                </p>
+              </div>
+
+              <!-- 3 -->
+              <div class="steps__card">
+                <div class="steps__circle">
+                  <div class="steps__subcircle">03</div>
+
+                  <img
+                    src="assets/img/steps-ground-coffee.png"
+                    alt="steps image"
+                    class="steps__img"
+                  />
+                </div>
+
+                <p class="steps__description">
+                  O café é torrado e adquire seu sabor através do processamento
+                  do grão em fornos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== TESTIMONIAL ====================-->
+      <section class="testimonial" id="testimonial">
+        <div class="testimonial__bg section">
+          <div class="testimonial__container container grid">
+            <div class="testimonial__data">
+              <h2 class="section__title">
+                Café é sempre a melhor escolha logo pela manhã
+              </h2>
+              <span class="testimonial__name"
+                ><i class="ri-home-heart-fill"></i> Cafeteria • Pompom</span
+              >
+            </div>
+
+            <img
+              src="assets/img/testimonial-coffee.jpg"
+              alt="testimonial image"
+              class="testimonial__img"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <!-- Footer Background Image -->
+        <img
+          src="assets/img/coffee-beans-bg.png"
+          alt="footer image"
+          class="footer__bg-img"
+        />
+
+        <div class="footer__container container grid">
+          <div class="footer__data grid">
+            <div>
+              <a href="#" class="footer__logo">
+                <img src="assets/img/logo.png" alt="footer logo" />
+                Pompom
+              </a>
+
+              <h3 class="footer__title">
+                Newsletter
+                <i class="ri-home-heart-fill"></i>
+              </h3>
+            </div>
+
+            <form
+              action="https://www.linkedin.com/in/john-dalmolin/"
+              class="footer__form grid"
+            >
+              <input
+                type="email"
+                placeholder="Digite seu e-mail"
+                class="footer__input"
+              />
+
+              <button class="button footer__button" type="submit">
+                Inscreva-se <i class="ri-arrow-right-s-line"></i>
+              </button>
+
+              <p class="footer__description">
+                Nós prezamos pela sua segurança <br />
+                <a
+                  href="https://www.linkedin.com/in/john-dalmolin/"
+                  class="footer__privacy"
+                  >Política de Privacidade</a
+                >
+              </p>
+            </form>
+          </div>
+
+          <div class="footer__content grid">
+            <div class="footer__social">
+              <!-- Linkedin -->
+              <a
+                href="https://www.linkedin.com/in/john-dalmolin/"
+                target="_blank"
+                class="footer__social-link"
+              >
+                <i class="ri-linkedin-fill"></i>
+              </a>
+
+              <!-- Github -->
+              <a href="#" target="_blank" class="footer__social-link">
+                <i class="ri-github-fill"></i>
+              </a>
+
+              <!-- Instagram -->
+              <a href="#" target="_blank" class="footer__social-link">
+                <i class="ri-instagram-fill"></i>
+              </a>
+            </div>
+
+            <span class="footer__copy">
+              &#169; Copyright John Dalmolin <br />
+              All rights reserved
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
